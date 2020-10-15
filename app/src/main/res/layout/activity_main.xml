@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginBottom="16dp"
-        android:text="TOPPINGS"
+        android:text="@string/toppings"
         android:textAllCaps="true"
         android:textColor="@android:color/tertiary_text_light"
         android:textSize="20sp" />
@@ -33,7 +33,7 @@
         android:layout_margin="16dp"
         android:checked="false"
         android:paddingLeft="24dp"
-        android:text="Whipped Cream"
+        android:text="@string/whipp"
         android:textColor="@android:color/black"
         android:textSize="25sp"/>
     <CheckBox
@@ -44,7 +44,7 @@
         android:layout_marginBottom="16dp"
         android:checked="false"
         android:paddingLeft="24dp"
-        android:text="Chocolate"
+        android:text="@string/chocolate"
         android:textSize="25sp" />
 
     <TextView
@@ -100,7 +100,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="Do you want a paper cup?"
+            android:text="@string/Q_environment"
             android:textSize="20sp"/>
 
         <Button
@@ -109,7 +109,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="16dp"
             android:onClick="cup"
-            android:text="NO"
+            android:text="@string/disagree"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
     </LinearLayout>
@@ -120,7 +120,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:text="ORDER SUMMARY"
+        android:text="@string/o_sum"
         android:textAllCaps="true"
         android:textColor="@android:color/tertiary_text_light"
         android:textSize="20sp" />
@@ -139,7 +139,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:onClick="submitOrder"
-        android:text="Order" />
+        android:text="@string/Order" />
 
 </LinearLayout>
 </ScrollView>

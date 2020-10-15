@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">JustJava</string>
+    <!-- Header file for toppings -->
+    <string name="toppings">Toppings</string>
+    <!-- Checkbox file for whipped cream -->
+    <string name="whipp">Whipped Cream</string>
+    <!-- Checkbox file for chocolate cream -->
+    <string name="chocolate">Chocolate</string>
+    <!-- Question for asking whether user requires a paper cup -->
+    <string name="Q_environment">Do you want a paper cup?</string>
+    <!-- User doesn't wamt a Paper Cup -->
+    <string name="disagree">NO</string>
+    <!-- User wants a Paper cup -->
+    <string name="agree">YES</string>
+    <!-- Order Summary -->
+    <string name="o_sum">ORDER SUMMARY</string>
+    <!-- Order -->
+    <string name="Order">ORDER</string>
 </resources>
