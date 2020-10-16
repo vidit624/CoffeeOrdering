@@ -1,2 +1,2 @@
 # CoffeeOrdering
-This is an coffer ordering system maintained by saish24
+This application can be used to order coffee 
