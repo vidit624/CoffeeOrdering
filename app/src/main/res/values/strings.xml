@@ -13,7 +13,9 @@
     <!-- User wants a Paper cup -->
     <string name="agree">YES</string>
     <!-- Order Summary -->
-    <string name="o_sum">ORDER SUMMARY</string>
+    <string name="o_sum">ORDER Total</string>
+    <!-- Calculate Total -->
+    <string name="Calc">Calculate</string>
     <!-- Order -->
-    <string name="Order">ORDER</string>
+    <string name="Ord">ORDER</string>
 </resources>

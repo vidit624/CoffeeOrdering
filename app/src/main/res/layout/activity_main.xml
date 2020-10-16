@@ -12,56 +12,49 @@
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
         android:hint="Name"
         android:inputType="textCapWords"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:layout_marginBottom="16dp"
         android:text="@string/toppings"
-        android:textAllCaps="true"
         android:textColor="@android:color/tertiary_text_light"
-        android:textSize="20sp" />
+        style="@style/HeaderTextFile"/>
 
     <CheckBox
         android:id="@+id/whipp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
         android:checked="false"
         android:paddingLeft="24dp"
         android:text="@string/whipp"
         android:textColor="@android:color/black"
-        android:textSize="25sp"/>
+        android:textSize="15sp"/>
     <CheckBox
         android:id="@+id/chocolate_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:layout_marginBottom="16dp"
         android:checked="false"
         android:paddingLeft="24dp"
         android:text="@string/chocolate"
-        android:textSize="25sp" />
+        android:textSize="15sp" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
         android:text="Quantity"
-        android:textAllCaps="true"
         android:textColor="@android:color/tertiary_text_light"
-        android:textSize="20sp" />
+        style= "@style/HeaderTextFile" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginLeft="16dp"
         android:orientation="horizontal">
 
         <Button
@@ -92,38 +85,33 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_marginRight="16dp"
             android:text="@string/Q_environment"
-            android:textSize="20sp"/>
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/cupp"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginTop="16dp"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
             android:onClick="cup"
             android:text="@string/disagree"
             android:textColor="@android:color/black"
-            android:textSize="16sp" />
+            android:textSize="15sp" />
     </LinearLayout>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
         android:text="@string/o_sum"
-        android:textAllCaps="true"
         android:textColor="@android:color/tertiary_text_light"
-        android:textSize="20sp" />
+        style="@style/HeaderTextFile" />
 
     <TextView
         android:id="@+id/price_text_view"
@@ -136,10 +124,18 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:onClick="Calc"
+        android:text = "@string/Calc" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
         android:onClick="submitOrder"
-        android:text="@string/Order" />
+        android:text="@string/Ord" />
 
 </LinearLayout>
 </ScrollView>
